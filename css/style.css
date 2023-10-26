@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    right: 0%;
+    padding: 22px 15%;
+    background: #f00;
+    z-index: 1000;
+}
+.logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+.navigation a{
+    margin: 0 25px;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.navigation a:hover{
+    color: #808080 !important;
+
+}
+main{
+    padding: 100px 15% 100px;
+}
+main .accueil{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.accueil_text h1{
+    color: #518ccc;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 3px;
+
+}
+.accueil_text p{
+    color: #2b2727;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+
+}
+.accueil .button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: inline-flex;
+}
+
+.apropos{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-top: -70px;
+}
+.heading{
+    text-align: center;
+    font-size: 32px;
+    color: #518ccc;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    top: 8%;
+    text-transform: uppercase;
+}
+.apropos_text{
+    text-align: center;
+    margin-top: 25px;
+}
+.apropos_text h3{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.apropos_text p{
+    font-size: 15px;
+    margin: 2rem 0 2rem;
+    color: #2b2727;
+}
+.travail{
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+.travail_text h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #518ccc;
+    margin-bottom: 2rem;
+    top: 20%;
+    text-transform: uppercase;
+}
+.travail_text p{
+    font-size: 15px;
+    margin: 2rem 0 2rem;
+    color: #2b2727;
+}
+.cv{
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+.cv_text{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.cv_text h2{
+    font-size: 32px;
+    color: #518ccc;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20%;
+    margin-top: 20%;
+}
+contact{
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+contact_text h2{
+    font-size: 32px;
+    color: #518ccc;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.contact_form form{
+    position: relative;
+}
+.contact_form form input,
+form textarea{
+    width: 100%;
+    padding: 14px;
+    background: #2b2727;
+    color: #fff !important;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.contact_form textarea{
+    resize: none;
+    height: 150px;
+}
+.contact_form .submit{
+    display: inline-block;
+    font-size: 16px;
+    background: #518ccc;
+    color: #fff !important;
+    width: 100px;
+    transition: all .45s ease;
+}
+.contact_form .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer{
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background: #808080;
+}
+.footer_text p{
+    color: #fff !important;
+    font-size: 14px;
+}
